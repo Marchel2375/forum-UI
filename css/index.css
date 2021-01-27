@@ -1,7 +1,4 @@
-html, body {
-        height: 100vh;
-        margin: 0px;
- }
+
 #card-content-container{
 		overflow: auto;
 		position: fixed;
