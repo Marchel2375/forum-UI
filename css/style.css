@@ -1,0 +1,199 @@
+/*General CSS*/
+
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+	margin: 0;
+}
+
+.top-navbar{
+	background-color: #FFFFFF;
+	height: 100px;
+
+}
+
+
+#navbar-logo{
+	padding-left: 100px;
+	float: left;
+	text-align: center;
+}
+
+#logo{
+	max-width: 	100%;
+	height: 80px;
+	margin: auto;
+}
+
+
+/*Title*/
+.title-container{	
+	background: #ececec;
+	height: 150px;
+	margin: 0;
+}
+.title-text{
+	padding: 11px 100px;
+	padding-right:0; 
+	margin: 0;
+}
+
+#course{
+	margin-left: 5px;
+	width: 320px;
+}
+
+#class{
+	margin-left: 16px;
+	width: 320px;
+}
+
+
+/*Side Navbar*/
+
+#navbar{
+	margin-top: 250px;
+	background-color: #f6f6f6;
+	height: auto;
+	position: absolute;
+	width: 20%;
+	z-index: 1000;
+	top: 0;
+}
+
+#nav-title{
+	text-align: center;
+}
+
+.nav-container{
+	overflow: auto;
+	margin: auto;
+	width: 100%;
+	background-color: #ECECEC;
+	height:89%;
+}
+.forum{
+	display: block;
+}
+
+.link-text{
+	display: none;
+	text-decoration: none;
+	color: black;
+	width:100%;
+	text-align: center;
+	padding: 30px;
+	border: none;
+	border-bottom: 2px solid black;
+	background: none;
+}
+.link-text:hover{
+	text-decoration: none;
+}
+.navbar-text{
+	text-align: center;
+	margin: 0;
+	margin-top: -13px;
+}
+.navbar-text:hover{
+	color:blue ;
+	text-align: center;
+	background-color:#FFFFFF ;
+	transition: 0.2s;
+}
+
+.show {
+	display: block;
+}
+/* footer */
+.footer{
+	bottom: 0;
+	position: 	absolute;	
+	width: 	100%;
+	background-color: black;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	z-index: 1001;
+}
+
+.footertext{
+	color: white;
+	margin: 0;
+}
+
+
+/*Screen up to 1366px width*/
+@media screen and (max-width: 800px){
+
+	*{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#navbar-logo{
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	#logo{
+		width: 200px;
+		height: 60px;
+	}
+	.top-navbar{
+		background-color: #ececec;
+		height: 550px;
+	}
+
+	.title-text{
+		padding-bottom: 20px;
+		margin-bottom: -400px;
+		text-align: center;	
+	}
+
+
+	.navbar{
+		margin:0;
+		background-color: #f6f6f6;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1000;
+		top: 0;
+	}
+
+	#nav-title{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align:center;	
+		margin:0;
+	}
+
+	.freedeliverytext{
+		float: right;
+		margin-top: -593px;
+		margin-right: 30px;
+		color: #ff5d5d;
+		font-size: 14pt;
+	}
+
+	
+    h1.title-text{
+        position: relative;
+        bottom: 150px;
+    }
+    
+    p.title-text{
+        position: relative;
+        bottom: 50px;
+        height: 1px;
+	}
+
+
+
+	
+}
